@@ -58,15 +58,15 @@ elif [ $ch -eq 3 ];then
 clear
 apt install git -y
 echo -e "\e[1;34m Downloading Latest Files..."
-git clone https://github.com/TheSpeedX/TBomb
-if [[ -s TBomb/TBomb.sh ]];then
-cd TBomb
+git clone https://github.com/xx-BireN-xx/ppsbomb
+if [[ -s PPSBomb/PPSBomb.sh ]];then
+cd PPSBomb
 cp -r -f * .. > temp
 cd ..
-rm -rf  TBomb >> temp
-rm update.speedx >> temp
+rm -rf  PPSBomb >> temp
+rm update.BireN >> temp
 rm temp
-chmod +x TBomb.sh
+chmod +x PPSBomb.sh
 fi
 echo -e "\e[1;32m PPSBomb Will Restart Now..."
 echo -e "\e[1;32m All The Required Packages Will Be Installed..."
